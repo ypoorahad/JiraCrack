@@ -41,16 +41,15 @@ now we need to download a file and replace it inside jira config directory.
 ```
 rm -f /opt/atlassian/jira/atlassian-jira/WEB-INF/lib/atlassian-extras-3.4.6.jar
 cd /opt/atlassian/jira/atlassian-jira/WEB-INF/lib/
-wget https://omwtfyb.ir/atlassian-extras-3.4.6.jar
 ```
-restart jira 
+then download this jar file [atlassian-extras-3.4.6.jar](https://github.com/guywiththecrack/jira-crack/blob/master/atlassian-extras-3.4.6.jar) and restart jira 
 ```
 . /opt/atlassian/jira/bin/start-jira.sh
 . /opt/atlassian/jira/bin/stop-jira.sh
 . /opt/atlassian/jira/bin/start-jira.sh
 ```
 
-now go to yourip:8080 and you should see jira starting up.if it's not showing you anything just give it a few moments.
+now go to << YourIP:8080 >> and you should see jira starting up.if it's not showing you anything just give it a few moments.
 it takes some time for jira to start up.
 proceed with the configuration and use the same values you used for postgre.
   when you see the license page use this code, wait a few minutes(it usually takes 2.3 minutes at this page).
